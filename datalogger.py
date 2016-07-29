@@ -79,5 +79,5 @@ while True:
 		print("Writing to file..")
 		with open(filename,"a") as f:
 			for line in batch_data:
-				f:write(line + "\n")
+				f.write(line + "\n")
 			batch_data = []
