@@ -52,7 +52,7 @@ def get_sense_data():
 	gyro_x = gyro["x"]
 	gyro_y = gyro["y"]
 	gyro_z = gyro["z"]
-	sense_data.extend([gyro_x,gryo_y,gyro_z])
+	sense_data.extend([gyro_x,gyro_y,gyro_z])
 
 	sense_data.append(datetime.now())
 
